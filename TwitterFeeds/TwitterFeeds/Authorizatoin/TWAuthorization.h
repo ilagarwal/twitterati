@@ -10,4 +10,9 @@
 
 @interface TWAuthorization : NSObject
 
++(TWAuthorization*)sharedAuthorization;
+
+-(BOOL)loggedIn;
+-(NSString*)username;
+
 @end

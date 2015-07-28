@@ -10,4 +10,14 @@
 
 @implementation AppContext
 
++(AppContext*)sharedAppContext {
+    static AppContext *sharedAppContext = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedAppContext = [[self alloc] init];
+    });
+    return sharedAppContext;
+}
+
+
 @end

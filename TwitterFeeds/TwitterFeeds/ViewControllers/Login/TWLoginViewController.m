@@ -7,6 +7,13 @@
 //
 
 #import "TWLoginViewController.h"
+#import <TwitterKit/TwitterKit.h>
+#import "UIColor+colors.h"
+#import "AppContext.h"
+#import "TWAuthorization.h"
+
+
+
 
 @interface TWLoginViewController ()
 
@@ -16,6 +23,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    TWTRLogInButton *logInButton = [TWTRLogInButton buttonWithLogInCompletion:^(TWTRSession *session, NSError *error) {
+        if (session) {
+            [[AppContext sharedAppContext].navigationManager showRoot];
+        } else {
+            // Show pop up could not login
+            NSLog(@"error: %@", [error localizedDescription]);
+        }
+    }];
+    
+    CGFloat width = 0.5* [UIScreen mainScreen].bounds.size.width;
+    logInButton.frame = CGRectMake(width/2, self.view.center.y, width,logInButton.frame.size.height);
+    [self.view addSubview:logInButton];
+
     // Do any additional setup after loading the view from its nib.
 }
 

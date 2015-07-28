@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TwitterKit/TwitterKit.h>
 
-@interface TWTimelineViewController : UIViewController
+@interface TWTimelineViewController : TWTRTimelineViewController<UISearchBarDelegate>
+
+@property (nonatomic,strong) UIButton* searchButton;
+@property (nonatomic, strong) UIBarButtonItem *searchItem;
+@property (nonatomic, strong) UISearchBar *searchBar;
 
 @end

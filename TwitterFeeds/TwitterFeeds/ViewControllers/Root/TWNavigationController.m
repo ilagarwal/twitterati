@@ -8,6 +8,7 @@
 
 #import "TWNavigationController.h"
 
+
 @interface TWNavigationController ()
 
 @end
@@ -16,8 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
 }
+
+-(void)viewWillAppear:(BOOL)animated{
+   
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

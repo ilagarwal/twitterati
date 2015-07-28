@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NavigationManager.h"
 
 @interface AppContext : NSObject
+
+
++(AppContext*)sharedAppContext;
+
+@property (nonatomic, strong) NavigationManager * navigationManager;
 
 @end

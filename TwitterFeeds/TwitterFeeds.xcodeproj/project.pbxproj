@@ -19,9 +19,7 @@
 		7548F9F71B5E9F600081321A /* TWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548F9F51B5E9F600081321A /* TWLoginViewController.m */; };
 		7548F9F81B5E9F600081321A /* TWLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7548F9F61B5E9F600081321A /* TWLoginViewController.xib */; };
 		7548F9FC1B5EA0430081321A /* TWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548F9FA1B5EA0430081321A /* TWNavigationController.m */; };
-		7548F9FD1B5EA0430081321A /* TWNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7548F9FB1B5EA0430081321A /* TWNavigationController.xib */; };
 		7548FA021B5EA2360081321A /* TWTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA001B5EA2360081321A /* TWTimelineViewController.m */; };
-		7548FA031B5EA2360081321A /* TWTimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7548FA011B5EA2360081321A /* TWTimelineViewController.xib */; };
 		7548FA071B5EA5B10081321A /* TWTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA051B5EA5B10081321A /* TWTrendsViewController.m */; };
 		7548FA081B5EA5B10081321A /* TWTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7548FA061B5EA5B10081321A /* TWTrendsViewController.xib */; };
 		7548FA0C1B5EA5C20081321A /* TWPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA0A1B5EA5C20081321A /* TWPageViewController.m */; };
@@ -38,6 +36,13 @@
 		7548FA2C1B5EA8930081321A /* NSString+TWStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA2B1B5EA8930081321A /* NSString+TWStringUtil.m */; };
 		7548FA2F1B5EA93C0081321A /* TWParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA2E1B5EA93C0081321A /* TWParseOperation.m */; };
 		7548FA321B5EA9520081321A /* TWImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA311B5EA9520081321A /* TWImageDownloader.m */; };
+		7548FA3C1B5EF9440081321A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7548FA381B5EF9440081321A /* Fabric.framework */; };
+		7548FA3D1B5EF9440081321A /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7548FA391B5EF9440081321A /* TwitterKit.framework */; };
+		7548FA3E1B5EF9440081321A /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7548FA3A1B5EF9440081321A /* TwitterKitResources.bundle */; };
+		7548FA3F1B5EF9440081321A /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7548FA3B1B5EF9440081321A /* TwitterCore.framework */; };
+		75D2B1041B6792D600762E07 /* UIColor+colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2B1031B6792D600762E07 /* UIColor+colors.m */; };
+		75D2B1061B67A58800762E07 /* TWTimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D2B1051B67A58800762E07 /* TWTimelineViewController.xib */; };
+		75D2B1101B680EDA00762E07 /* TWTimelineViewController+SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2B10F1B680EDA00762E07 /* TWTimelineViewController+SearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,10 +79,8 @@
 		7548F9F61B5E9F600081321A /* TWLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWLoginViewController.xib; sourceTree = "<group>"; };
 		7548F9F91B5EA0430081321A /* TWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNavigationController.h; sourceTree = "<group>"; };
 		7548F9FA1B5EA0430081321A /* TWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNavigationController.m; sourceTree = "<group>"; };
-		7548F9FB1B5EA0430081321A /* TWNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWNavigationController.xib; sourceTree = "<group>"; };
 		7548F9FF1B5EA2360081321A /* TWTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTimelineViewController.h; sourceTree = "<group>"; };
 		7548FA001B5EA2360081321A /* TWTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTimelineViewController.m; sourceTree = "<group>"; };
-		7548FA011B5EA2360081321A /* TWTimelineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWTimelineViewController.xib; sourceTree = "<group>"; };
 		7548FA041B5EA5B10081321A /* TWTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTrendsViewController.h; sourceTree = "<group>"; };
 		7548FA051B5EA5B10081321A /* TWTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTrendsViewController.m; sourceTree = "<group>"; };
 		7548FA061B5EA5B10081321A /* TWTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWTrendsViewController.xib; sourceTree = "<group>"; };
@@ -105,6 +108,16 @@
 		7548FA2E1B5EA93C0081321A /* TWParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWParseOperation.m; sourceTree = "<group>"; };
 		7548FA301B5EA9520081321A /* TWImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWImageDownloader.h; sourceTree = "<group>"; };
 		7548FA311B5EA9520081321A /* TWImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWImageDownloader.m; sourceTree = "<group>"; };
+		7548FA331B5EF4D00081321A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7548FA381B5EF9440081321A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		7548FA391B5EF9440081321A /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		7548FA3A1B5EF9440081321A /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		7548FA3B1B5EF9440081321A /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		75D2B1021B6792D600762E07 /* UIColor+colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+colors.h"; sourceTree = "<group>"; };
+		75D2B1031B6792D600762E07 /* UIColor+colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colors.m"; sourceTree = "<group>"; };
+		75D2B1051B67A58800762E07 /* TWTimelineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWTimelineViewController.xib; sourceTree = "<group>"; };
+		75D2B10E1B680EDA00762E07 /* TWTimelineViewController+SearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TWTimelineViewController+SearchBar.h"; sourceTree = "<group>"; };
+		75D2B10F1B680EDA00762E07 /* TWTimelineViewController+SearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TWTimelineViewController+SearchBar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +125,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7548FA3C1B5EF9440081321A /* Fabric.framework in Frameworks */,
+				7548FA3F1B5EF9440081321A /* TwitterCore.framework in Frameworks */,
+				7548FA3D1B5EF9440081321A /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +144,11 @@
 		75020F941B5C21C100D0A593 = {
 			isa = PBXGroup;
 			children = (
+				7548FA381B5EF9440081321A /* Fabric.framework */,
+				7548FA391B5EF9440081321A /* TwitterKit.framework */,
+				7548FA3A1B5EF9440081321A /* TwitterKitResources.bundle */,
+				7548FA3B1B5EF9440081321A /* TwitterCore.framework */,
+				7548FA331B5EF4D00081321A /* Twitter.framework */,
 				75020F9F1B5C21C100D0A593 /* TwitterFeeds */,
 				75020FB91B5C21C100D0A593 /* TwitterFeedsTests */,
 				75020F9E1B5C21C100D0A593 /* Products */,
@@ -217,7 +238,6 @@
 			children = (
 				7548F9F91B5EA0430081321A /* TWNavigationController.h */,
 				7548F9FA1B5EA0430081321A /* TWNavigationController.m */,
-				7548F9FB1B5EA0430081321A /* TWNavigationController.xib */,
 				7548FA091B5EA5C20081321A /* TWPageViewController.h */,
 				7548FA0A1B5EA5C20081321A /* TWPageViewController.m */,
 				7548FA0B1B5EA5C20081321A /* TWPageViewController.xib */,
@@ -238,15 +258,17 @@
 		7548F9FE1B5EA21B0081321A /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				75D2B1051B67A58800762E07 /* TWTimelineViewController.xib */,
 				7548F9FF1B5EA2360081321A /* TWTimelineViewController.h */,
 				7548FA001B5EA2360081321A /* TWTimelineViewController.m */,
-				7548FA011B5EA2360081321A /* TWTimelineViewController.xib */,
 				7548FA041B5EA5B10081321A /* TWTrendsViewController.h */,
 				7548FA051B5EA5B10081321A /* TWTrendsViewController.m */,
 				7548FA061B5EA5B10081321A /* TWTrendsViewController.xib */,
 				7548FA0E1B5EA5E40081321A /* TWComposeTweetViewController.h */,
 				7548FA0F1B5EA5E40081321A /* TWComposeTweetViewController.m */,
 				7548FA101B5EA5E40081321A /* TWComposeTweetViewController.xib */,
+				75D2B10E1B680EDA00762E07 /* TWTimelineViewController+SearchBar.h */,
+				75D2B10F1B680EDA00762E07 /* TWTimelineViewController+SearchBar.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -293,6 +315,8 @@
 				7548FA281B5EA87B0081321A /* NSDate+TWDateUtil.m */,
 				7548FA2A1B5EA8930081321A /* NSString+TWStringUtil.h */,
 				7548FA2B1B5EA8930081321A /* NSString+TWStringUtil.m */,
+				75D2B1021B6792D600762E07 /* UIColor+colors.h */,
+				75D2B1031B6792D600762E07 /* UIColor+colors.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -307,6 +331,7 @@
 				75020F991B5C21C100D0A593 /* Sources */,
 				75020F9A1B5C21C100D0A593 /* Frameworks */,
 				75020F9B1B5C21C100D0A593 /* Resources */,
+				7548FA371B5EF91F0081321A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -378,13 +403,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7548FA251B5EA8130081321A /* TWTrendsCell.xib in Resources */,
-				7548F9FD1B5EA0430081321A /* TWNavigationController.xib in Resources */,
 				7548F9F81B5E9F600081321A /* TWLoginViewController.xib in Resources */,
-				7548FA031B5EA2360081321A /* TWTimelineViewController.xib in Resources */,
+				75D2B1061B67A58800762E07 /* TWTimelineViewController.xib in Resources */,
 				7548FA0D1B5EA5C20081321A /* TWPageViewController.xib in Resources */,
 				7548FA121B5EA5E40081321A /* TWComposeTweetViewController.xib in Resources */,
 				7548FA081B5EA5B10081321A /* TWTrendsViewController.xib in Resources */,
 				7548FA201B5EA7EA0081321A /* TWTimelineCell.xib in Resources */,
+				7548FA3E1B5EF9440081321A /* TwitterKitResources.bundle in Resources */,
 				75020FB11B5C21C100D0A593 /* LaunchScreen.xib in Resources */,
 				75020FAE1B5C21C100D0A593 /* Images.xcassets in Resources */,
 			);
@@ -399,11 +424,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7548FA371B5EF91F0081321A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run a537f133302b9186051bc14d4ecc1e1db4e02fd4 90ed240a815db6584d168cd1c08bd8461307bd3621a1be79b873ca594a287b5f";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75020F991B5C21C100D0A593 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D2B1041B6792D600762E07 /* UIColor+colors.m in Sources */,
 				7548F9FC1B5EA0430081321A /* TWNavigationController.m in Sources */,
 				7548F9E61B5E9E5C0081321A /* TWAuthorization.m in Sources */,
 				7548FA111B5EA5E40081321A /* TWComposeTweetViewController.m in Sources */,
@@ -411,6 +453,7 @@
 				7548FA241B5EA8130081321A /* TWTrendsCell.m in Sources */,
 				7548FA191B5EA62A0081321A /* TWTweet.m in Sources */,
 				7548F9DF1B5E9DE90081321A /* AppContext.m in Sources */,
+				75D2B1101B680EDA00762E07 /* TWTimelineViewController+SearchBar.m in Sources */,
 				7548FA2F1B5EA93C0081321A /* TWParseOperation.m in Sources */,
 				7548FA2C1B5EA8930081321A /* NSString+TWStringUtil.m in Sources */,
 				75020FA61B5C21C100D0A593 /* AppDelegate.m in Sources */,
@@ -543,6 +586,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TwitterFeeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -553,6 +600,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TwitterFeeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

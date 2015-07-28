@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIkit/UIkit.h>
 
 @interface NavigationManager : NSObject
+
+@property (nonatomic, strong) UIWindow * window;
+
+-(void)showRoot;
 
 @end

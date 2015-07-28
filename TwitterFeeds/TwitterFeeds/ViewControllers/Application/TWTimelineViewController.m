@@ -7,6 +7,8 @@
 //
 
 #import "TWTimelineViewController.h"
+#import "TWTimelineViewController+SearchBar.h"
+#import "TWAuthorization.h"
 
 @interface TWTimelineViewController ()
 
@@ -16,6 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    TWTRAPIClient *APIClient = [[Twitter sharedInstance] APIClient];
+    TWTRUserTimelineDataSource *userTimelineDataSource = [[TWTRUserTimelineDataSource alloc] initWithScreenName:[[TWAuthorization sharedAuthorization] username] APIClient:APIClient];
+    self.dataSource = userTimelineDataSource;
+    
+    [self setUpSearchBar];
+    
     // Do any additional setup after loading the view from its nib.
 }
 
