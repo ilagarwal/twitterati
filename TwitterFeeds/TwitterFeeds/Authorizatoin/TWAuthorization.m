@@ -32,4 +32,8 @@
     return [Twitter sharedInstance].session.userName;
 }
 
+-(NSString*)userid{
+    return [Twitter sharedInstance].session.userID;
+}
+
 @end

@@ -9,7 +9,11 @@
 #import "TWTimelineViewController.h"
 #import "TWTimelineViewController+SearchBar.h"
 #import "TWTimelineViewController+NewTweet.h"
+#import "TWTimelineViewController+Trends.h"
 #import "TWAuthorization.h"
+#import "AppContext.h"
+
+#define MAX_TWEETS 500
 
 @interface TWTimelineViewController ()
 
@@ -20,13 +24,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     TWTRAPIClient *APIClient = [[Twitter sharedInstance] APIClient];
-    TWTRUserTimelineDataSource *userTimelineDataSource = [[TWTRUserTimelineDataSource alloc] initWithScreenName:[[TWAuthorization sharedAuthorization] username] APIClient:APIClient];
+    TWTRUserTimelineDataSource *userTimelineDataSource = [[TWTRUserTimelineDataSource alloc] initWithScreenName:[TWTAUTH username] userID:[TWTAUTH userid] APIClient:APIClient maxTweetsPerRequest:MAX_TWEETS includeReplies:YES includeRetweets:YES];
+    
     self.dataSource = userTimelineDataSource;
     [self setUpSearchBar];
     [self setUpNewTweetButton];
+    [self setUpTrendsButton];
     
-    
-
 }
 
 - (void)didReceiveMemoryWarning {

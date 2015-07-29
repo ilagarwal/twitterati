@@ -43,4 +43,8 @@
     [self.window makeKeyAndVisible];
 }
 
+-(void)pushNextVC:(UIViewController*)vc{
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 @end

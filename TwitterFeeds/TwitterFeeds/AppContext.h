@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "NavigationManager.h"
 
-@interface AppContext : NSObject
+static NSString * const TW_REFRESH_NOTIFICATION = @"refresh";
 
+@interface AppContext : NSObject
 
 +(AppContext*)sharedAppContext;
 

@@ -10,4 +10,8 @@
 
 @interface TWTrendsCell : UITableViewCell
 
++(NSString*)reuseIdentifier;
+-(void)configureWith:(id)object;
+
 @end
+

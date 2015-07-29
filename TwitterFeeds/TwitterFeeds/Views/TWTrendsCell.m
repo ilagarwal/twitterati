@@ -11,13 +11,23 @@
 @implementation TWTrendsCell
 
 - (void)awakeFromNib {
-    // Initialization code
+    self.textLabel.backgroundColor = [UIColor clearColor];
+    self.textLabel.font = [UIFont systemFontOfSize:20];
+        self.textLabel.textColor = [UIColor whiteColor];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
++(NSString*)reuseIdentifier{
+    return @"trendsCell";
+}
+
+-(void)configureWith:(id)object{
+    self.textLabel.text = [object valueForKey:@"name"];
 }
 
 @end

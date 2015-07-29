@@ -14,5 +14,6 @@
 @property (nonatomic, strong) UIWindow * window;
 
 -(void)showRoot;
+-(void)pushNextVC:(UIViewController*)vc;
 
 @end

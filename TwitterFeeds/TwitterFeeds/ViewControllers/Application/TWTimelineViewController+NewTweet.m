@@ -11,7 +11,7 @@
 @implementation TWTimelineViewController (NewTweet)
 
 -(void)setUpNewTweetButton{
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@" + " style:UIBarButtonItemStyleDone target:self action:@selector(newTweetPressed:)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@" + " style:UIBarButtonItemStyleDone target:self action:@selector(newTweetPressed:)];
 }
 
 -(IBAction)newTweetPressed:(id)sender{

@@ -8,11 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+#define TWTAUTH [TWAuthorization sharedAuthorization]
+
+
 @interface TWAuthorization : NSObject
 
 +(TWAuthorization*)sharedAuthorization;
 
 -(BOOL)loggedIn;
 -(NSString*)username;
+-(NSString*)userid;
 
 @end

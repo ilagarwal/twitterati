@@ -26,7 +26,7 @@
 		7548FA0D1B5EA5C20081321A /* TWPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7548FA0B1B5EA5C20081321A /* TWPageViewController.xib */; };
 		7548FA111B5EA5E40081321A /* TWComposeTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA0F1B5EA5E40081321A /* TWComposeTweetViewController.m */; };
 		7548FA121B5EA5E40081321A /* TWComposeTweetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7548FA101B5EA5E40081321A /* TWComposeTweetViewController.xib */; };
-		7548FA161B5EA6150081321A /* TWProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA151B5EA6150081321A /* TWProfile.m */; };
+		7548FA161B5EA6150081321A /* TWTrend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA151B5EA6150081321A /* TWTrend.m */; };
 		7548FA191B5EA62A0081321A /* TWTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA181B5EA62A0081321A /* TWTweet.m */; };
 		7548FA1F1B5EA7EA0081321A /* TWTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548FA1D1B5EA7EA0081321A /* TWTimelineCell.m */; };
 		7548FA201B5EA7EA0081321A /* TWTimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7548FA1E1B5EA7EA0081321A /* TWTimelineCell.xib */; };
@@ -44,6 +44,8 @@
 		75D2B1061B67A58800762E07 /* TWTimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D2B1051B67A58800762E07 /* TWTimelineViewController.xib */; };
 		75D2B1101B680EDA00762E07 /* TWTimelineViewController+SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2B10F1B680EDA00762E07 /* TWTimelineViewController+SearchBar.m */; };
 		75D2B1131B681A1500762E07 /* TWTimelineViewController+NewTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2B1121B681A1500762E07 /* TWTimelineViewController+NewTweet.m */; };
+		75D2B1161B687EB500762E07 /* TWApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2B1151B687EB500762E07 /* TWApi.m */; };
+		75D2B1191B68BBB900762E07 /* TWTimelineViewController+Trends.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2B1181B68BBB900762E07 /* TWTimelineViewController+Trends.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,8 +93,8 @@
 		7548FA0E1B5EA5E40081321A /* TWComposeTweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWComposeTweetViewController.h; sourceTree = "<group>"; };
 		7548FA0F1B5EA5E40081321A /* TWComposeTweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWComposeTweetViewController.m; sourceTree = "<group>"; };
 		7548FA101B5EA5E40081321A /* TWComposeTweetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWComposeTweetViewController.xib; sourceTree = "<group>"; };
-		7548FA141B5EA6150081321A /* TWProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWProfile.h; sourceTree = "<group>"; };
-		7548FA151B5EA6150081321A /* TWProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWProfile.m; sourceTree = "<group>"; };
+		7548FA141B5EA6150081321A /* TWTrend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTrend.h; sourceTree = "<group>"; };
+		7548FA151B5EA6150081321A /* TWTrend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTrend.m; sourceTree = "<group>"; };
 		7548FA171B5EA62A0081321A /* TWTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTweet.h; sourceTree = "<group>"; };
 		7548FA181B5EA62A0081321A /* TWTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTweet.m; sourceTree = "<group>"; };
 		7548FA1C1B5EA7EA0081321A /* TWTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTimelineCell.h; sourceTree = "<group>"; };
@@ -121,6 +123,10 @@
 		75D2B10F1B680EDA00762E07 /* TWTimelineViewController+SearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TWTimelineViewController+SearchBar.m"; sourceTree = "<group>"; };
 		75D2B1111B681A1500762E07 /* TWTimelineViewController+NewTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TWTimelineViewController+NewTweet.h"; sourceTree = "<group>"; };
 		75D2B1121B681A1500762E07 /* TWTimelineViewController+NewTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TWTimelineViewController+NewTweet.m"; sourceTree = "<group>"; };
+		75D2B1141B687EB500762E07 /* TWApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWApi.h; sourceTree = "<group>"; };
+		75D2B1151B687EB500762E07 /* TWApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWApi.m; sourceTree = "<group>"; };
+		75D2B1171B68BBB900762E07 /* TWTimelineViewController+Trends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TWTimelineViewController+Trends.h"; sourceTree = "<group>"; };
+		75D2B1181B68BBB900762E07 /* TWTimelineViewController+Trends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TWTimelineViewController+Trends.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +280,8 @@
 				75D2B10F1B680EDA00762E07 /* TWTimelineViewController+SearchBar.m */,
 				75D2B1111B681A1500762E07 /* TWTimelineViewController+NewTweet.h */,
 				75D2B1121B681A1500762E07 /* TWTimelineViewController+NewTweet.m */,
+				75D2B1171B68BBB900762E07 /* TWTimelineViewController+Trends.h */,
+				75D2B1181B68BBB900762E07 /* TWTimelineViewController+Trends.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -281,8 +289,8 @@
 		7548FA131B5EA5FE0081321A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7548FA141B5EA6150081321A /* TWProfile.h */,
-				7548FA151B5EA6150081321A /* TWProfile.m */,
+				7548FA141B5EA6150081321A /* TWTrend.h */,
+				7548FA151B5EA6150081321A /* TWTrend.m */,
 				7548FA171B5EA62A0081321A /* TWTweet.h */,
 				7548FA181B5EA62A0081321A /* TWTweet.m */,
 			);
@@ -309,6 +317,8 @@
 				7548FA2E1B5EA93C0081321A /* TWParseOperation.m */,
 				7548FA301B5EA9520081321A /* TWImageDownloader.h */,
 				7548FA311B5EA9520081321A /* TWImageDownloader.m */,
+				75D2B1141B687EB500762E07 /* TWApi.h */,
+				75D2B1151B687EB500762E07 /* TWApi.m */,
 			);
 			path = TwitterAPI;
 			sourceTree = "<group>";
@@ -454,8 +464,9 @@
 				7548F9FC1B5EA0430081321A /* TWNavigationController.m in Sources */,
 				7548F9E61B5E9E5C0081321A /* TWAuthorization.m in Sources */,
 				7548FA111B5EA5E40081321A /* TWComposeTweetViewController.m in Sources */,
-				7548FA161B5EA6150081321A /* TWProfile.m in Sources */,
+				7548FA161B5EA6150081321A /* TWTrend.m in Sources */,
 				7548FA241B5EA8130081321A /* TWTrendsCell.m in Sources */,
+				75D2B1191B68BBB900762E07 /* TWTimelineViewController+Trends.m in Sources */,
 				7548FA191B5EA62A0081321A /* TWTweet.m in Sources */,
 				7548F9DF1B5E9DE90081321A /* AppContext.m in Sources */,
 				75D2B1101B680EDA00762E07 /* TWTimelineViewController+SearchBar.m in Sources */,
@@ -465,6 +476,7 @@
 				7548F9E21B5E9E200081321A /* NavigationManager.m in Sources */,
 				7548FA0C1B5EA5C20081321A /* TWPageViewController.m in Sources */,
 				7548FA071B5EA5B10081321A /* TWTrendsViewController.m in Sources */,
+				75D2B1161B687EB500762E07 /* TWApi.m in Sources */,
 				7548FA021B5EA2360081321A /* TWTimelineViewController.m in Sources */,
 				7548FA291B5EA87B0081321A /* NSDate+TWDateUtil.m in Sources */,
 				7548FA1F1B5EA7EA0081321A /* TWTimelineCell.m in Sources */,

@@ -14,10 +14,9 @@
     self.searchBar = [[UISearchBar alloc] init];
     self.searchBar.showsCancelButton = YES;
     self.searchBar.delegate = self;
-
     [self setUpSearchButton];
     [self showSearchButton];
-    }
+}
 
 -(void)setUpSearchButton{
     self.searchButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -38,24 +37,6 @@
 
 - (void)searchButtonTapped:(id)sender {
     [self showSearchBar];
-    return;
-    
-    [UIView animateWithDuration:0.5 animations:^{
-        self.searchButton.alpha = 0.0f;
-        
-    } completion:^(BOOL finished) {
-        self.navigationItem.rightBarButtonItem = nil;
-        self.navigationItem.titleView = self.searchBar;
-        self.searchBar.alpha = 0.0;
-        
-        [UIView animateWithDuration:0.5
-                         animations:^{
-                             self.searchBar.alpha = 1.0;
-                         } completion:^(BOOL finished) {
-                             [self.searchBar becomeFirstResponder];
-                         }];
-        
-    }];
 }
 
 -(void)searchBarCancelButtonClicked:(UISearchBar *)searchBar{

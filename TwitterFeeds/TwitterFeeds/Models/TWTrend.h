@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TWProfile : NSObject
+@interface TWTrend : NSObject
+
+@property (nonatomic,strong) NSString* name;
++(instancetype)trendWithDict:(NSDictionary*)responseDict;
 
 @end
